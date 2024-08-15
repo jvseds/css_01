@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: border-box;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: inline-block;
+    justify-content: center;
+    margin: 10vh 10vw
+}
+
+
+.card {
+    color: whitesmoke;
+    border: 1px none;
+    border-radius: 8px;
+    background-color: #33062b;
+    width: 65vw;
+    height: 70vh;
+    box-shadow: 2vh 2vw 10vw gray;
+    overflow: scroll;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.card-content {
+    font-size: 1.2rem;
+    text-align: justify;
+}
