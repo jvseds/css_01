@@ -1,0 +1,32 @@
+header {
+    font-family: "Outfit";
+    background-color: #2a3f3f;
+    font-size: 2rem;
+    color: #f0cd6e;
+    text-align: center;
+    margin-top: 1%;
+}
+
+nav {
+    font-size: 1.5rem;
+    background-color: #467750;
+    color: #89c07e;
+}
+
+nav ul {
+    list-style: none;
+    margin: 3%
+}
+
+nav li {
+    display: inline;
+    margin: 1%
+}
+
+nav a:link {
+    color: #f0cd6e;
+}
+
+nav a:hover {
+    background-color: #e0e8e2;
+}
